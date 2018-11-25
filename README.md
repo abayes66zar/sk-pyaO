@@ -1,10 +1,10 @@
-TextSendMessage (text pesan)
+## TextSendMessage (text pesan)
 
 message = TextSendMessage(text='Hello, world')
 
 line_bot_api.reply_message(event.reply_token, message)
 
-ImageSendMessage (pesan gambar)
+## ImageSendMessage (pesan gambar)
 
 message = ImageSendMessage(
 
@@ -16,7 +16,7 @@ message = ImageSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-VideoSendMessage (pesan video)
+## VideoSendMessage (pesan video)
 
 message = VideoSendMessage(
 
@@ -28,7 +28,7 @@ message = VideoSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-AudioSendMessage (Pesan audio)
+## AudioSendMessage (Pesan audio)
 
 message = AudioSendMessage(
 
@@ -40,7 +40,7 @@ message = AudioSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-LocationSendMessage (pesan lokasi)
+## LocationSendMessage (pesan lokasi)
 
 message = LocationSendMessage(
 
@@ -56,7 +56,7 @@ message = LocationSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-StickerSendMessage (Pesan stiker)
+## StickerSendMessage (Pesan stiker)
 
 message = StickerSendMessage(
 
@@ -68,7 +68,7 @@ message = StickerSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-ImagemapSendMessage
+## ImagemapSendMessage
 
 message = ImagemapSendMessage(
 
@@ -110,7 +110,7 @@ message = ImagemapSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-TemplateSendMessage - ButtonsTemplate (Template)
+## TemplateSendMessage - ButtonsTemplate (Template)
 
 message = TemplateSendMessage(
 
@@ -160,7 +160,7 @@ message = TemplateSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-TemplateSendMessage - ConfirmTemplate
+## TemplateSendMessage - ConfirmTemplate
 
 message = TemplateSendMessage(
 
@@ -198,7 +198,7 @@ message = TemplateSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-TemplateSendMessage - CarouselTemplate
+## TemplateSendMessage - CarouselTemplate
 
 message = TemplateSendMessage(
 
@@ -296,7 +296,7 @@ message = TemplateSendMessage(
 
 line_bot_api.reply_message(event.reply_token, message)
 
-TemplateSendMessage - ImageCarouselTemplate
+## TemplateSendMessage - ImageCarouselTemplate
 
 message = TemplateSendMessage(
 
